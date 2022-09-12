@@ -23,14 +23,14 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Zero Waiting Time",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "The best credit cards offer some tantalizing combinations of promotions and prizes.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Multiple Payment Gateway",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
@@ -78,13 +78,13 @@ export const stats = [
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Services",
+    value: "150+",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Certified Saloons", 
+    value: "100+",
   },
 ];
 

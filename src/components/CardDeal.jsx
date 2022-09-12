@@ -1,17 +1,19 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import Button from "./Button1";
 
 const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        How Aluma Works? <br className="sm:block hidden" /> 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+        Aluma works in a simple manner <br/>
+        Find a Saloon in your locality,
+        <br/>
+        Explore your dezire services on-the-go,<br/>
+        Book your appointment anywhere anytime.
       </p>
 
       <Button styles={`mt-10`} />
