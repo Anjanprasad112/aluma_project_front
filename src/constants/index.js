@@ -25,21 +25,21 @@ export const features = [
     icon: star,
     title: "Zero Waiting Time",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes.",
+      "We provide you the best grooming services with zero-wating-time so that you can save your time.",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "Multiple Payment Gateway",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We have a wide range of payment options to suit your needs. You can pay with your credit card, debit card, or bank account.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Online Booking Option",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We take online bookings for convenient slots and provide you with a hassle-free experience.",
   },
 ];
 
