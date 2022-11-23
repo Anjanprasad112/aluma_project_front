@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star,icons8time,icons8bank,icons8mobile  } from "../assets";
 
 export const navLinks = [
   {
@@ -22,21 +22,21 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: icons8time,
     title: "Zero Waiting Time",
     content:
       "We provide you the best grooming services with zero-wating-time so that you can save your time.",
   },
   {
     id: "feature-2",
-    icon: shield,
+    icon: icons8bank,
     title: "Multiple Payment Gateway",
     content:
       "We have a wide range of payment options to suit your needs. You can pay with your credit card, debit card, or bank account.",
   },
   {
     id: "feature-3",
-    icon: send,
+    icon: icons8mobile,
     title: "Online Booking Option",
     content:
       "We take online bookings for convenient slots and provide you with a hassle-free experience.",
@@ -68,6 +68,7 @@ export const feedback = [
     title: "Founder & Leader",
     img: people03,
   },
+
 ];
 
 export const stats = [
@@ -90,68 +91,46 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "About Us",
     links: [
       {
-        name: "Content",
+        name: "About Us",
         link: "https://www.hoobank.com/content/",
       },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+      
     ],
   },
   {
-    title: "Community",
+    title: "Events",
     links: [
       {
-        name: "Help Center",
+        name: "Events",
         link: "https://www.hoobank.com/help-center/",
       },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+      
     ],
   },
   {
-    title: "Partner",
+    title: "Terms of Use",
     links: [
       {
-        name: "Our Partner",
+        name: "Terms of Use",
         link: "https://www.hoobank.com/our-partner/",
       },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
+     
     ],
   },
+  {
+    title: "Privacy Policy",
+    links: [
+      {
+        name: "Privacy Policy",
+        link: "https://www.hoobank.com/content/",
+      },
+     
+    ],
+  },
+  
 ];
 
 export const socialMedia = [

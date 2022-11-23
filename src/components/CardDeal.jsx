@@ -1,6 +1,7 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
-import Button from "./Button1";
+import Button1 from "./Button1";
+import img from '../assets/img-02.png';
 
 const CardDeal = () => (
   <section className={layout.section}>
@@ -16,11 +17,11 @@ const CardDeal = () => (
         Book your appointment anywhere anytime.
       </p>
 
-      <Button styles={`mt-10`} />
+      <Button1 styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+      <img src={img} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
