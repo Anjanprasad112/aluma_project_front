@@ -9,7 +9,7 @@ const CTA = () => (
     <div className="flex-1 flex flex-col justify-center items-center ">
       
       
-      <h3 className="font-poppins font-semibold xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full text-center">
+      <h3 className="font-montserrat font-semibold xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full text-center">
         Subscribe to stay up to date
       </h3>
       <p className={`${styles.paragraph}`}>
@@ -19,16 +19,16 @@ const CTA = () => (
         and products straight to your inbox
       </p>
 
-      <div className="flex sm:flex-row items-center justify-between w-3/5 rounded-[30px] border-2 p-1 mt-2">
-        <img src={img} alt="" className="w-8 h-8 ml-4" />
+      <div className="flex sm:flex-row items-center justify-between w-full md:w-3/5 rounded-[30px] border-2 p-1 mt-2">
+        <img src={img} alt="" className="h-8 ml-1 md:ml-4" />
         <input
           type="email"
           required
           autoComplete="off"
-          placeholder="Please enter your email address"
-          className="flex-1 h-10 px-6 m-2 w-full text-black mt-2 focus:outline-none"
+          placeholder="Enter your email address"
+          className="flex-1 h-full px-1 md:px-6 m-2 w-full visible text-black mt-2 focus:outline-none"
         />
-        <Button3 className="m-2"/>
+        <Button3/>
       </div>
       <div className="mt-2">
         <p className={`${styles.paragraph}`}>

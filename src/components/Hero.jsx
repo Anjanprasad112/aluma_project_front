@@ -7,7 +7,7 @@ import Button2 from "./Button2"
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY} `}>
       <div className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}>
         {/* <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
@@ -18,7 +18,7 @@ const Hero = () => {
         </div> */}
 
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-montserrat font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100.8px] leading-[75px]">
             {/* The Next <br className="sm:block hidden" />{" "} */}
             <span className="text-gradient"></span>{" "}
           </h1>
@@ -27,23 +27,23 @@ const Hero = () => {
           </div> */}
         </div>
 
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-center text-[52px] text-black ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className="font-montserrat font-bold ss:text-[68px] text-center text-[52px] text-black ss:leading-[100.8px] leading-[75px] w-full">
           Grooming services at
         </h1>
-        <h1 className="font-poppins font-semibold ss:text-[68px] text-center text-[52px] text-black ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className="font-montserrat font-bold ss:text-[68px] text-center text-[52px] text-black ss:leading-[100.8px] leading-[75px] w-full">
           your fingertips.
         </h1>
-        <div className="relative m-auto w-3/6 ">
+        <div className="relative m-auto md:w-3/6 h-100%">
           <img src={img} alt="image" />
         </div>
         <div className="relative m-auto text-2xl mb-2">
-        <p className="text-center text-black w-full">
+        <p className="text-center font-montserrat text-black w-full">
         Aluma allows users to
         </p>
-        <p className="text-center text-black w-full">
+        <p className="text-center font-montserrat text-black w-full">
         have their grooming services
         </p>
-        <p className="text-center text-black w-full">
+        <p className="text-center font-montserrat text-black w-full">
         at their fingertips.
         </p>
         </div>
