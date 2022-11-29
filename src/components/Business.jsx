@@ -28,7 +28,7 @@ const Image = () =>(
 const Business = () =>  (
   <section id="features" className={`${layout.section}`}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
+      <h2 className={`${styles.heading2} `}>
         Features  <br className="sm:block hidden" /> Aluma Offers
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
