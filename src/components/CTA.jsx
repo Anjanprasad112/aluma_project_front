@@ -1,8 +1,14 @@
 import styles from "../style";
 import Button3 from "./Button3";
 import img from "../assets/icons8gmail.svg";
+// import emailjs from '@emailjs/browser';
+// import React, { useRef } from 'react';
+import Contact  from "./Contact.jsx";
+
 
 const CTA = () => (
+  
+  
   <section
     className={`${styles.flexCenter}  ${styles.padding} sm:flex-row flex-col bg-white rounded-[20px] box-shadow`}
   >
@@ -21,17 +27,12 @@ const CTA = () => (
 
       <div className="flex sm:flex-row items-center justify-between w-full md:w-3/5 rounded-[30px] border-2 p-1 mt-2">
         <img src={img} alt="" className="h-8 ml-1 md:ml-4" />
-        <input
-          type="email"
-          required
-          autoComplete="off"
-          placeholder="Enter your email address"
-          className="flex-1 h-full px-1 md:px-6 m-2 w-full visible text-black mt-2 focus:outline-none"
-        />
-        <Button3/>
+        
+        
+        <Contact/>
       </div>
       <div className="mt-2">
-        <p className={`${styles.paragraph}`}>
+        <p className={`${styles.paragraph} ${styles.flexCenter}`}>
           Aluma Respects Your Privacy. No Spam!
         </p>
       </div>

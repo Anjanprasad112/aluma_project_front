@@ -8,6 +8,7 @@ import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Hero from "./Hero";
+import Test from "./Test";
 // import Screenshow from "./Screenshow";
 
 export {
@@ -21,5 +22,6 @@ export {
   Footer,
   Testimonials,
   Hero,
+  Test
   // Screenshow
 };

@@ -1,10 +1,11 @@
-import { card } from "../assets";
+import React from 'react'
 import styles, { layout } from "../style";
-import Button1 from "./Button1";
 import img from '../assets/img-02.png';
 
-const CardDeal = () => (
-  <section className={layout.section}>
+
+const CardDeal = () => {
+  return (
+    <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         How Aluma Works? <br className="sm:block hidden" /> 
@@ -17,13 +18,17 @@ const CardDeal = () => (
         Book your appointment anywhere anytime.
       </p>
 
-      <Button1 styles={`mt-10`} />
+      <button onClick={()=>navigation()} className={`mt-10 py-4 px-6 font-montserrat  font-medium text-[18px] text-white bg-black rounded-[30px] outline-none ${styles}`}>
+        Moro Info
+      </button>
     </div>
+
 
     <div className={layout.sectionImg}>
       <img src={img} alt="billing" className="w-[100%] h-[100%]" />
     </div>
   </section>
-);
+  )
+}
 
 export default CardDeal;

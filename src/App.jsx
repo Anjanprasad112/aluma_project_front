@@ -1,5 +1,6 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import {  Routes,Route} from 'react-router-dom';
+import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero,Test } from "./components";
 
 const App = () => (
   <div className="bg-white w-full overflow-hidden">
@@ -51,6 +52,9 @@ const App = () => (
         </div>
         {/* <Screenshow /> */}
       </div>
+      <Routes>
+        <Route exact path="/moreinfo" element={<Test/>}/>
+      </Routes>
     </div>
   </div>
 );
