@@ -1,9 +1,8 @@
 import styles from "./style";
-import {  Routes,Route} from 'react-router-dom';
 import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero,Test } from "./components";
 
 const App = () => (
-  <div className="bg-white w-full overflow-hidden">
+  <div className="w-full overflow-hidden ">
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
@@ -52,9 +51,6 @@ const App = () => (
         </div>
         {/* <Screenshow /> */}
       </div>
-      <Routes>
-        <Route exact path="/moreinfo" element={<Test/>}/>
-      </Routes>
     </div>
   </div>
 );
